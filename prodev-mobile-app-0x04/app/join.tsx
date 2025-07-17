@@ -1,5 +1,6 @@
 import { Text, TextInput, View, TouchableOpacity, Image } from "react-native";
-import { styles } from "@/styles";
+// import { styles } from '@/styles';
+import styles from '@/styles';
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 
@@ -33,7 +34,7 @@ export default function Index() {
         </View>
 
         <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>Sign in</Text>
+          <Text style={styles.buttonText}>Join</Text>
         </TouchableOpacity>
 
         <View style={styles.dividerGroup}>

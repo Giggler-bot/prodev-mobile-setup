@@ -2,10 +2,9 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
-      "jsx": "react-native",
-    "baseUrl": ".",
+    "baseUrl": ".",        // ✅ Required to support paths
     "paths": {
-      "@/*": ["./*"],
+      "@/*": ["./*"]       // ✅ This maps "@/styles/..." to root/styles/...
     }
   },
   "include": [
